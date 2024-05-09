@@ -1,0 +1,4944 @@
+{
+  "init_state": {
+    "duration_limit": 1500,
+    "explorable_subnets": [
+      "subnet_1"
+    ],
+    "compromised_devices": [
+      "device_1_1"
+    ],
+    "obtained_permissions": [
+      "none"
+    ]
+  },
+  "subnets": [
+    {
+      "subnet_id": "subnet_1",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_1_1",
+        "device_1_2",
+        "device_1_3",
+        "device_1_4",
+        "device_1_5",
+        "device_1_6",
+        "device_1_7",
+        "device_1_8",
+        "device_1_9",
+        "device_1_10",
+        "device_1_11",
+        "device_1_12",
+        "device_1_13",
+        "device_1_14",
+        "device_1_15",
+        "device_1_16",
+        "device_1_17",
+        "device_1_18",
+        "device_1_19",
+        "device_1_20",
+        "device_1_21",
+        "device_1_22",
+        "device_1_23",
+        "device_1_24",
+        "device_1_25",
+        "device_1_26",
+        "device_1_27",
+        "device_1_28",
+        "device_1_29",
+        "device_1_30",
+        "device_1_31",
+        "device_1_32",
+        "device_1_33",
+        "device_1_34",
+        "device_1_35",
+        "device_1_36",
+        "device_1_37"
+      ]
+    },
+    {
+      "subnet_id": "subnet_2",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_2_38",
+        "device_2_39",
+        "device_2_40",
+        "device_2_41",
+        "device_2_42",
+        "device_2_43",
+        "device_2_44",
+        "device_2_45",
+        "device_2_46",
+        "device_2_47",
+        "device_2_48",
+        "device_2_49",
+        "device_2_50",
+        "device_2_51",
+        "device_2_52",
+        "device_2_53",
+        "device_2_54",
+        "device_2_55",
+        "device_2_56",
+        "device_2_57",
+        "device_2_58",
+        "device_2_59",
+        "device_2_60",
+        "device_2_61",
+        "device_2_62",
+        "device_2_63",
+        "device_2_64",
+        "device_2_65",
+        "device_2_66",
+        "device_2_67",
+        "device_2_68",
+        "device_2_69",
+        "device_2_70",
+        "device_2_71",
+        "device_2_72",
+        "device_2_73",
+        "device_2_74"
+      ]
+    },
+    {
+      "subnet_id": "subnet_3",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_3_75",
+        "device_3_76",
+        "device_3_77",
+        "device_3_78",
+        "device_3_79",
+        "device_3_80",
+        "device_3_81",
+        "device_3_82",
+        "device_3_83",
+        "device_3_84",
+        "device_3_85",
+        "device_3_86",
+        "device_3_87",
+        "device_3_88",
+        "device_3_89",
+        "device_3_90",
+        "device_3_91",
+        "device_3_92",
+        "device_3_93",
+        "device_3_94",
+        "device_3_95",
+        "device_3_96",
+        "device_3_97",
+        "device_3_98",
+        "device_3_99",
+        "device_3_100",
+        "device_3_101",
+        "device_3_102",
+        "device_3_103",
+        "device_3_104",
+        "device_3_105",
+        "device_3_106",
+        "device_3_107",
+        "device_3_108",
+        "device_3_109",
+        "device_3_110",
+        "device_3_111",
+        "device_3_112"
+      ]
+    },
+    {
+      "subnet_id": "subnet_4",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_4_113",
+        "device_4_114",
+        "device_4_115",
+        "device_4_116",
+        "device_4_117",
+        "device_4_118",
+        "device_4_119",
+        "device_4_120",
+        "device_4_121",
+        "device_4_122",
+        "device_4_123",
+        "device_4_124",
+        "device_4_125",
+        "device_4_126",
+        "device_4_127",
+        "device_4_128",
+        "device_4_129",
+        "device_4_130",
+        "device_4_131",
+        "device_4_132",
+        "device_4_133",
+        "device_4_134",
+        "device_4_135",
+        "device_4_136",
+        "device_4_137",
+        "device_4_138",
+        "device_4_139",
+        "device_4_140",
+        "device_4_141",
+        "device_4_142",
+        "device_4_143",
+        "device_4_144",
+        "device_4_145",
+        "device_4_146",
+        "device_4_147",
+        "device_4_148",
+        "device_4_149",
+        "device_4_150"
+      ]
+    }
+  ],
+  "connections": [
+    [
+      "subnet_1",
+      "subnet_2"
+    ],
+    [
+      "subnet_1",
+      "subnet_3"
+    ],
+    [
+      "subnet_2",
+      "subnet_3"
+    ],
+    [
+      "subnet_2",
+      "subnet_4"
+    ],
+    [
+      "subnet_3",
+      "subnet_4"
+    ]
+  ],
+  "firewalls": [],
+  "permissions": [
+    {
+      "permission_id": "none",
+      "name": "None",
+      "level": 0
+    }
+  ],
+  "techniques": {
+    "subnet_scope": [],
+    "device_scope": [
+      {
+        "technique_id": "T1068",
+        "technique": "Exploitation for Privilege Escalation",
+        "vulnerability": 0.75,
+        "duration": 1.2
+      },
+      {
+        "technique_id": "T1016",
+        "technique": "System Network Configuration Discovery",
+        "vulnerability": 0.74,
+        "duration": 2.6
+      },
+      {
+        "technique_id": "T1583",
+        "technique": "Acquire Infrastructure",
+        "vulnerability": 0.71,
+        "duration": 1.7
+      },
+      {
+        "technique_id": "T1498",
+        "technique": "Network Denial of Service",
+        "vulnerability": 0.75,
+        "duration": 2.6
+      },
+      {
+        "technique_id": "T1199",
+        "technique": "Trusted Relationship",
+        "vulnerability": 0.74,
+        "duration": 2.3
+      }
+    ]
+  },
+  "devices": [
+    {
+      "device_id": "device_1_1",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_2",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498",
+          "T1016"
+        ],
+        [
+          "T1016",
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_3",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_4",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_5",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_6",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1016",
+          "T1583"
+        ],
+        [
+          "T1498",
+          "T1199",
+          "T1016"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_7",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1016",
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_8",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1583",
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1199",
+          "T1583",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_9",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_10",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1199",
+          "T1016"
+        ],
+        [
+          "T1199",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_11",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1068",
+          "T1199"
+        ],
+        [
+          "T1498",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_12",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1016"
+        ],
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1068",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_13",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_14",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_15",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_16",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1016",
+          "T1498",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_17",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1583",
+          "T1016"
+        ],
+        [
+          "T1583",
+          "T1199",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_18",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_19",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_20",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_21",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1583",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_22",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1498",
+          "T1199",
+          "T1068"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_23",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_24",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_25",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_26",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1068",
+          "T1498"
+        ],
+        [
+          "T1068",
+          "T1199",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_27",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1068",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_28",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_29",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1583",
+          "T1498",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_30",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1583",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_31",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_32",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1498": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_33",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_34",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_35",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_36",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1199",
+          "T1068",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_37",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1068",
+          "T1498",
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_38",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1498",
+          "T1583"
+        ],
+        [
+          "T1016",
+          "T1068",
+          "T1498"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_39",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_40",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_41",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_42",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1068",
+          "T1199",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_43",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1068",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_44",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1498",
+          "T1016"
+        ],
+        [
+          "T1199",
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_45",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_46",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068",
+          "T1016"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_47",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1068",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1199",
+          "T1498",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_48",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1498",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_49",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1016",
+          "T1498"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1583"
+        ],
+        [
+          "T1068",
+          "T1199",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_50",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_51",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068",
+          "T1583"
+        ],
+        [
+          "T1199",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_52",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1498": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_53",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_54",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199"
+        ],
+        [
+          "T1068",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1498",
+          "T1068"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_55",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_56",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1016"
+        ],
+        [
+          "T1199",
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1498",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_57",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199",
+          "T1016"
+        ],
+        [
+          "T1016",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1068",
+          "T1498",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_58",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_59",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1199",
+          "T1583",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_60",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_61",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_62",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_63",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_64",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_65",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1016"
+        ],
+        [
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_66",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1498"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_67",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_68",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1583",
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_69",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1068",
+          "T1583"
+        ],
+        [
+          "T1016",
+          "T1498",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_70",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_71",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_72",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_73",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199",
+          "T1016"
+        ],
+        [
+          "T1498",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_74",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1016",
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_75",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_76",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583",
+          "T1068"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_77",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_78",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1498",
+          "T1016"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_79",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1498",
+          "T1016"
+        ],
+        [
+          "T1583",
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_80",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1068",
+          "T1199"
+        ],
+        [
+          "T1199",
+          "T1498",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_81",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1583"
+        ],
+        [
+          "T1199",
+          "T1583",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_82",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1498",
+          "T1016"
+        ],
+        [
+          "T1583",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_83",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1498",
+          "T1583"
+        ],
+        [
+          "T1199",
+          "T1583",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_84",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498",
+          "T1583"
+        ],
+        [
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_85",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_86",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1068",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_87",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1016",
+          "T1498"
+        ],
+        [
+          "T1498",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1016"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_88",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_89",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_90",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1583",
+          "T1199",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_91",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_92",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_93",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1498"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_94",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1016"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_95",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1498",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_96",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_97",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_98",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1199",
+          "T1498"
+        ],
+        [
+          "T1068",
+          "T1583",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_99",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1068",
+          "T1498"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_100",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_101",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583"
+        ],
+        [
+          "T1068",
+          "T1583",
+          "T1016"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_102",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_103",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1583",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_104",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1068",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_105",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1498"
+        ],
+        [
+          "T1068",
+          "T1498",
+          "T1583"
+        ],
+        [
+          "T1016",
+          "T1583",
+          "T1498"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_106",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_107",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1498",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_108",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1498"
+        ],
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1498",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_109",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_110",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1016",
+          "T1583"
+        ],
+        [
+          "T1498",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1068",
+          "T1583",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_111",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_112",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_113",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1068",
+          "T1498"
+        ],
+        [
+          "T1199",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_114",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_115",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068"
+        ],
+        [
+          "T1583",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_116",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1016"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1016",
+          "T1068",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_117",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199",
+          "T1068"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_118",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_119",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_120",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_121",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1583",
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_122",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1016"
+        ],
+        [
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_123",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1498",
+          "T1583"
+        ],
+        [
+          "T1199",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_124",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_125",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1016"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_126",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1199",
+          "T1583"
+        ],
+        [
+          "T1199",
+          "T1016",
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_127",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1199",
+          "T1016",
+          "T1583"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_128",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1583"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_129",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_130",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_131",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1016",
+          "T1199",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_132",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1016",
+          "T1498"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1016"
+        ],
+        [
+          "T1199",
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_133",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_134",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_135",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1498",
+          "T1016",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_136",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_137",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583"
+        ],
+        [
+          "T1583",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_138",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1583",
+          "T1016"
+        ],
+        [
+          "T1068",
+          "T1016",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_139",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1016",
+          "T1583"
+        ],
+        [
+          "T1583",
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1016",
+          "T1068"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_140",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1016",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_141",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1068",
+          "T1016",
+          "T1583"
+        ],
+        [
+          "T1199",
+          "T1068",
+          "T1498"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_142",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ],
+        [
+          "T1068",
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_143",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1016",
+          "T1583"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_144",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1199",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1498",
+          "T1583",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_145",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_146",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1498",
+          "T1068",
+          "T1199"
+        ],
+        [
+          "T1583",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1199",
+          "T1068"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_147",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1068",
+          "T1016"
+        ],
+        [
+          "T1068"
+        ],
+        [
+          "T1068",
+          "T1583",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_148",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1199"
+        ],
+        [
+          "T1199",
+          "T1068"
+        ],
+        [
+          "T1498",
+          "T1068",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1068": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_149",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1583",
+          "T1068"
+        ],
+        [
+          "T1068",
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "required_permissions": {
+        "T1068": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1199": [
+          "none"
+        ],
+        "T1583": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_150",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1016",
+          "T1498",
+          "T1199"
+        ]
+      ],
+      "sensitive": true,
+      "required_permissions": {
+        "T1199": [
+          "none"
+        ],
+        "T1498": [
+          "none"
+        ],
+        "T1016": [
+          "none"
+        ]
+      }
+    }
+  ]
+}

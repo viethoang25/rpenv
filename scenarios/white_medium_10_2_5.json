@@ -1,0 +1,450 @@
+{
+  "init_state": {
+    "duration_limit": 100,
+    "explorable_subnets": [
+      "subnet_1"
+    ],
+    "compromised_devices": [
+      "device_1_1"
+    ],
+    "obtained_permissions": [
+      "none"
+    ]
+  },
+  "subnets": [
+    {
+      "subnet_id": "subnet_1",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_1_1",
+        "device_1_2"
+      ]
+    },
+    {
+      "subnet_id": "subnet_2",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_2_3",
+        "device_2_4"
+      ]
+    },
+    {
+      "subnet_id": "subnet_3",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_3_5",
+        "device_3_6",
+        "device_3_7",
+        "device_3_8"
+      ]
+    },
+    {
+      "subnet_id": "subnet_4",
+      "firewall": null,
+      "exploration_techniques": [],
+      "devices": [
+        "device_4_9",
+        "device_4_10"
+      ]
+    }
+  ],
+  "connections": [
+    [
+      "subnet_1",
+      "subnet_2"
+    ],
+    [
+      "subnet_1",
+      "subnet_3"
+    ],
+    [
+      "subnet_2",
+      "subnet_3"
+    ],
+    [
+      "subnet_2",
+      "subnet_4"
+    ],
+    [
+      "subnet_3",
+      "subnet_4"
+    ]
+  ],
+  "firewalls": [],
+  "permissions": [
+    {
+      "permission_id": "none",
+      "name": "None",
+      "level": 0
+    }
+  ],
+  "techniques": {
+    "subnet_scope": [],
+    "device_scope": [
+      {
+        "technique_id": "T1578",
+        "technique": "Modify Cloud Compute Infrastructure",
+        "vulnerability": 0.69,
+        "duration": 2.6
+      },
+      {
+        "technique_id": "T1530",
+        "technique": "Data from Cloud Storage Object",
+        "vulnerability": 0.61,
+        "duration": 3.7
+      },
+      {
+        "technique_id": "T1134",
+        "technique": "Access Token Manipulation",
+        "vulnerability": 0.69,
+        "duration": 2.3
+      },
+      {
+        "technique_id": "T1211",
+        "technique": "Exploitation for Defense Evasion",
+        "vulnerability": 0.62,
+        "duration": 2.6
+      },
+      {
+        "technique_id": "T1008",
+        "technique": "Fallback Channels",
+        "vulnerability": 0.65,
+        "duration": 2.0
+      }
+    ]
+  },
+  "devices": [
+    {
+      "device_id": "device_1_1",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1578",
+          "T1134"
+        ]
+      ],
+      "required_permissions": {
+        "T1578": [
+          "none"
+        ],
+        "T1134": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_1_2",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1530",
+          "T1134",
+          "T1008",
+          "T1578"
+        ],
+        [
+          "T1578",
+          "T1211",
+          "T1008"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1578": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1134": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_3",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1530",
+          "T1211",
+          "T1578"
+        ],
+        [
+          "T1530",
+          "T1211",
+          "T1008"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1578": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_2_4",
+      "type": "computer",
+      "sensitive": true,
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1578",
+          "T1008",
+          "T1530"
+        ],
+        [
+          "T1578",
+          "T1008",
+          "T1134",
+          "T1211"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ],
+        "T1578": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1134": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_5",
+      "type": "computer",
+      "sensitive": true,
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1530",
+          "T1211",
+          "T1008"
+        ],
+        [
+          "T1530",
+          "T1134",
+          "T1211"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1134": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_6",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1530",
+          "T1211",
+          "T1578",
+          "T1008"
+        ],
+        [
+          "T1211",
+          "T1530"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1578": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_7",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1008",
+          "T1578",
+          "T1211"
+        ],
+        [
+          "T1530",
+          "T1134",
+          "T1008",
+          "T1578"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1578": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1134": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_3_8",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1578",
+          "T1530",
+          "T1008"
+        ],
+        [
+          "T1008",
+          "T1211"
+        ],
+        [
+          "T1530",
+          "T1578",
+          "T1008"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1578": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_9",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1211",
+          "T1530",
+          "T1134"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1134": [
+          "none"
+        ]
+      }
+    },
+    {
+      "device_id": "device_4_10",
+      "type": "computer",
+      "gained_permissions": [
+        "none"
+      ],
+      "compromise_sequences": [
+        [
+          "T1578",
+          "T1530",
+          "T1211"
+        ],
+        [
+          "T1530",
+          "T1211",
+          "T1578",
+          "T1008"
+        ]
+      ],
+      "required_permissions": {
+        "T1530": [
+          "none"
+        ],
+        "T1578": [
+          "none"
+        ],
+        "T1211": [
+          "none"
+        ],
+        "T1008": [
+          "none"
+        ]
+      }
+    }
+  ]
+}
